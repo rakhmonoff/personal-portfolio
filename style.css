@@ -57,92 +57,108 @@
     }
 }
 
-@media (max-width:576px) {
-    .navbar-brand span {
-        display: none !important;
+    @media (max-width:576px) {
+        .navbar-brand span {
+            display: none !important;
+        }
     }
-}
 
-.hr-thick {
-    border-top: 2px solid #1f1e1ed9;
-}
+    .hr-thick {
+        border-top: 2px solid #1f1e1ed9;
+    }
 
-        /* hero container */
+            /* hero container */
 
-#hero {
-    background-image: url(./Photos//image-bg1.jpg);
-    background-size: cover;
-    background-position: center;
-    padding-top: calc(1/30 * 100%);
-    
-  }
+    #hero {
+        background-image: url(./Photos/main-img.jpg);
+        background-blend-mode: screen;
+        background-color: rgba(130, 39, 137, 0.753);
+        background-size: cover;
+        background-position: bottom;
+        padding-top: calc(1/30 * 100%);
+        
+    }
 
-  #hero h2{
-    color: rgb(63, 1, 63);
-    font-weight: 700;
-    letter-spacing: 5px;
-  }
+    #hero h2{
+        color:#001f3f;
+        font-size: 2.5rem;
+        font-weight: 700;
+        letter-spacing: 6px;
+    }
 
-  #hero h4 {
-    color: #001f3f;
-    font-weight: 700;
-    letter-spacing: 6px;
-  }
+    #hero h5 {
+        color: #001f3f;
+        font-weight: 700;
+        letter-spacing: 6px;
+    }
 
-.hr-small {
-    border-top: 2px solid #1f1e1ed9;
-}
+    .hr-small {
+        border-top: 2px solid #1f1e1ed9;
+    }
 
-.hero-container {
-    position: relative;
-    padding-top: 170px;
-    padding-bottom: 20%;
-}
-
-@media (max-width:768px) {
     .hero-container {
-        padding-top: 120px;
+        position: relative;
+        padding-top: 170px;
+        padding-bottom: 20%;
     }
 
-    #hero h2, h4 {
-        letter-spacing: 2px !important;
-        font-size: 1.5rem !important;
-    }
-}
+    @media (max-width:768px) {
+        .hero-container {
+            padding-top: 120px;
+        }
 
-@media (max-width:440px) {
-    .hero-container {
-        padding-top: 90px;
-    }
+        #hero h2 {
+            letter-spacing: 2px !important;
+            font-size: 1.5rem !important;
+        }
 
-    #hero h2, h4 {
-        letter-spacing: 2px !important;
-        font-size: 1rem !important;
-    }
-
-    .main-sm-btn {
-        font-size: 0.7rem !important;
-        padding: 1px !important;
-        margin-bottom: 5px;
-    }
-}
-
-@media (max-width: 186px) {
-    .hero-container {
-        padding-top: 50px;
+        #hero h5 {
+            font-size: 1rem;
+            letter-spacing: 1px;
+        }
     }
 
-    #hero h2, h4 {
-        letter-spacing: 1px !important;
-        font-size: 0.7rem !important;
+    @media (max-width:440px) {
+        .hero-container {
+            padding-top: 90px;
+        }
+
+        #hero h2 {
+            letter-spacing: 2px !important;
+            font-size: 1rem !important;
+        }
+
+        #hero h5 {
+            font-size: 0.7rem;
+        }
+
+        .main-sm-btn {
+            font-size: 0.7rem !important;
+            padding: 1px !important;
+            margin-bottom: 5px;
+        }
     }
 
-    .main-sm-btn {
-        font-size: 0.7rem !important;
-        padding: 0 !important;
-    }
+    @media (max-width: 186px) {
+        .hero-container {
+            padding-top: 50px;
+        }
 
-    .main-sm-btn i {
-        padding: 0 !important;
+        #hero h2 {
+            letter-spacing: 1px !important;
+            font-size: 0.7rem !important;
+        }
+
+        #hero h5 {
+            font-size: 0.4rem !important;
+        }
+
+        .main-sm-btn {
+            font-size: 0.7rem !important;
+            padding: 0 !important;
+        }
+
+        .main-sm-btn i {
+            padding: 0 !important;
+        }
     }
-}
