@@ -3,7 +3,7 @@
 }
 
 
-/* Nav bar */
+                /* Nav bar */
 
 .navbar a,
 .navbar-nav a {
@@ -65,8 +65,10 @@
 
     .hr-thick {
         border-top: 2px solid #1f1e1ed9;
+
     }
-            /* hero container */
+                    /* Hero container */
+
 
     #hero {
         background-image: url(./Photos/main-img.jpg);
@@ -162,7 +164,7 @@
         }
     }
 
-     /* Portfolios section */
+                    /* Portfolios section */
 
      .header-portfolio {
          letter-spacing: 10px;
@@ -206,6 +208,11 @@
          padding-top: 10px !important;
          padding-bottom: 10px !important;
         }
+
+        .portfolios-section i,
+        .portfolios-section p {
+            font-size: 0.8rem !important;
+        }
     }
 
     @media (max-width:186px) {
@@ -216,4 +223,69 @@
          padding-top: 10px !important;
          padding-bottom: 10px !important;
         }
+
+        .portfolios-section i,
+        .portfolios-section p {
+            font-size: 0.5rem !important;
+        }
     }
+
+                /* Section about */
+    
+    .personal-photo {
+        background-image: url(./Photos/my-photo.JPG);
+        background-size: cover;
+        background-position: center;
+        padding-top: calc(9/10 * 100%);
+        border-radius: 50%;
+    }
+
+    .summary-myself {
+        font-size: 18px;
+        font-weight: 700 !important;
+        letter-spacing: 3px;
+    }
+
+
+@media (min-width:768px) and (max-width:992px) {
+    .col-12 p {
+        font-size: 0.8rem !important;
+    }
+}
+
+@media (min-width:576px) and (max-width:768px) {
+    .col-12 p {
+        font-size: 14px !important;
+    }
+}
+
+@media (max-width:576px) {
+    .col-12 p {
+        font-size: 12px !important;
+    }
+}
+
+        /* Footer */
+
+ .footer {
+     background-color: rgba(128, 128, 128, 0.1);
+     margin-left: 3%;
+     margin-right: 3%;
+}
+
+ .footer span {
+     font-size: 0.8rem !important;
+ }
+
+ @media (max-width:576px) {
+    .footer span {
+        font-size: 0.3rem !important;
+    }
+}
+
+@media (max-width:576px) {
+    .footer span {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+}
