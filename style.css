@@ -66,7 +66,6 @@
     .hr-thick {
         border-top: 2px solid #1f1e1ed9;
     }
-
             /* hero container */
 
     #hero {
@@ -160,5 +159,61 @@
 
         .main-sm-btn i {
             padding: 0 !important;
+        }
+    }
+
+     /* Portfolios section */
+
+     .header-portfolio {
+         letter-spacing: 10px;
+         font-size: 32px;
+         font-weight: 700;
+     }
+
+     .img-apple {
+         background-image: url(./Photos/Apple-clone.png);
+         background-position: cover;
+         background-size: cover;
+         padding-top: calc(9/16 * 100%);
+     }
+
+     .img-newsweek {
+        background-image: url(./Photos/newsweek-clone.png);
+        background-position: cover;
+        background-size: cover;
+        padding-top: calc(9/16 * 100%);
+    }
+
+    .img-airbnb {
+        background-image: url(./Photos/airbnb-clone.png);
+        background-position: cover;
+        background-size: cover;
+        padding-top: calc(9/16 * 100%);
+    }
+
+    .img-portfolio {
+        background-image: url(./Photos/Portfolio.png);
+        background-position: cover;
+        background-size: cover;
+        padding-top: calc(9/16 * 100%);
+    }
+
+    @media (max-width:440px) {
+        .header-portfolio {
+         letter-spacing: 5px !important;
+         font-size: 16px !important;
+         font-weight: 700;
+         padding-top: 10px !important;
+         padding-bottom: 10px !important;
+        }
+    }
+
+    @media (max-width:186px) {
+        .header-portfolio {
+         letter-spacing: 1px !important;
+         font-size: 12px !important;
+         font-weight: 700;
+         padding-top: 10px !important;
+         padding-bottom: 10px !important;
         }
     }
