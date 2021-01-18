@@ -1,114 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./Photos/logo.png" type="img/png>    
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300&display=swap" rel="stylesheet">    
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">  
-    <link rel="stylesheet" href="./bootstrap4.css" type="text/css">
-    <link rel="stylesheet" type="text/css" href="./style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./bootstrap4.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="./Photos/logo.png" type="img/png" />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
     <title>Khasanjon Rakhmonov - Full stack web developer</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-md navbar-light position-absolute w-100 sticky">
-        <a class="navbar-brand" href="£"><img src="./Photos/logo.png" alt="logo-image" width="32" height="32" class="ml-2 logo-img"><span class="ml-3">Khasanjon Rakhmonov</span></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active" href="#portfolios">Portfolios</a>
-            <a class="nav-link active" href="#about">About</a>
+    <nav
+      class="navbar navbar-expand-md navbar-light position-absolute w-100 sticky"
+    >
+      <a class="navbar-brand" href="£"
+        ><img
+          src="./Photos/logo.png"
+          alt="logo-image"
+          width="32"
+          height="32"
+          class="ml-2 logo-img"
+        /><span class="ml-3">Khasanjon Rakhmonov</span></a
+      >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="collapse navbar-collapse justify-content-end"
+        id="navbarNavAltMarkup"
+      >
+        <div class="navbar-nav">
+          <a class="nav-link active" href="#portfolios">Portfolios</a>
+          <a class="nav-link active" href="#about">About</a>
+        </div>
+      </div>
+    </nav>
+
+    <hr class="hr-thick position-absolute w-100 mt-5" />
+
+    <!-- hero container -->
+
+    <div id="hero">
+      <div class="container-fluid text-center hero-container">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="pb-2">KHASANJON RAKHMONOV</h2>
+            <h5>ALTCADEMY STUDENT</h5>
+            <hr class="hr-small w-50" />
+
+            <button class="btn btn-dark main-sm-btn">
+              <i class="fab fa-github p-2"></i>GITHUB
+            </button>
+            <button class="btn btn-dark main-sm-btn">
+              <i class="fab fa-linkedin p-2"></i>LINKEDIN
+            </button>
           </div>
         </div>
-      </nav>
+      </div>
+    </div>
 
-        <hr class="hr-thick position-absolute w-100 mt-5">
-  
+    <!-- Portfolios section -->
 
- <!-- hero container -->
+    <div class="container" id="portfolios">
+      <p class="text-center py-5 header-portfolio">PORTFOLIOS</p>
+      <div class="row portfolios-section">
+        <div class="col-md-6 pb-5">
+          <a href="#"><h2 class="img-apple"></h2></a>
+          <span><i>The first website clone done by KR </i></span>
+          <p>HTML | CSS</p>
+        </div>
+        <div class="col-md-6 pb-5">
+          <a href="#"><h2 class="img-newsweek"></h2></a>
+          <span><i>The second website clone done by KR </i></span>
+          <p>HTML | CSS | BOOTSTRAP 3</p>
+        </div>
+        <div class="col-md-6 pb-3">
+          <a href="#"><h2 class="img-airbnb"></h2></a>
+          <span><i>The third website clone done by KR </i></span>
+          <p>HTML | CSS | BOOTSTRAP 4</p>
+        </div>
+        <div class="col-md-6 pb-3">
+          <a href="#"><h2 class="img-portfolio"></h2></a>
+          <span><i>The personal portfolio website of KR</i></span>
+          <p>HTML | CSS | BOOTSTRAP 4</p>
+        </div>
+      </div>
 
-      
-      <div id="hero">
-        <div class="container-fluid text-center hero-container">
-          <div class="row">
-            <div class="col-12 ">
-                <h2 class="pb-2">KHASANJON RAKHMONOV</h2>
-                <h5>ALTCADEMY STUDENT</h5>
-          <hr class="hr-small w-50">
+      <hr class="hr-thick w-100" />
+    </div>
 
-          <button class="btn btn-dark main-sm-btn"><i class="fab fa-github p-2"></i>GITHUB</button>
-          <button class="btn btn-dark main-sm-btn"><i class="fab fa-linkedin p-2"></i>LINKEDIN</button>
+    <!-- About section -->
+
+    <div class="container" id="about">
+      <p class="text-center summary-myself">A LITTLE SUMMARY</p>
+      <div class="row">
+        <div class="col-6 col-md-4 col-xl-3 offset-1">
+          <div class="personal-photo mb-3"></div>
+        </div>
+
+        <div class="col-12 col-md-7 col-lg-6">
+          <p>
+            KR loves technology and the real world application of it. He has
+            graduated finance and has extensive experience in managing premium
+            class Italian restaurants in Middle East. He is very passionate
+            about software engineering and decided to enter the world of
+            programming.
+          </p>
+          <p>
+            He is now student at the online coding bootcamp of
+            <a href="https://www.altcademy.com/" target="_blank">Altcademy</a>
+            and has completed the first part of full stack web development
+            course.
+          </p>
+          <p>
+            Find him on
+            <a href="https://github.com/rakhmonoff" target="_blank">Github</a>,
+            <a href="https://www.linkedin.com/feed/" target="_blank"
+              >LinkedIn</a
+            >
+            or send him an email: <a href="#">rahmanov246 @ gmail.com</a>.
+          </p>
         </div>
       </div>
     </div>
-  </div>
+    <!-- Footer -->
 
-<!-- Portfolios section -->
-
-  <div class="container" id="portfolios">
-    <p class="text-center py-5 header-portfolio">PORTFOLIOS</p>
-    <div class="row portfolios-section">
-      <div class="col-md-6 pb-5">
-        <a href="#"><h2 class="img-apple"></h2></a>
-        <span><i>The first website clone done by KR </i></span>
-        <p>HTML | CSS</p>
-      </div>
-      <div class="col-md-6 pb-5">
-        <a href="#"><h2 class="img-newsweek"></h2></a>
-        <span><i>The second website clone done by KR </i></span>
-        <p>HTML | CSS | BOOTSTRAP 3</p>
-      </div>
-      <div class="col-md-6 pb-3">
-        <a href="#"><h2 class="img-airbnb"></h2></a>
-        <span><i>The third website clone done by KR </i></span>
-        <p>HTML | CSS | BOOTSTRAP 4</p>      
-      </div>
-      <div class="col-md-6 pb-3">
-        <a href="#"><h2 class="img-portfolio"></h2></a>
-        <span><i>The personal portfolio website of KR</i></span>
-        <p>HTML | CSS | BOOTSTRAP 4</p>   
-      </div>
+    <div class="container-fluid pb-2 footer">
+      <hr class="hr-thick w-100" />
+      <span
+        >Copyright &copy; Khasanjon Rakhmonov 2021. All rights reserved
+      </span>
     </div>
 
-    <hr class="hr-thick w-100">
-
-  </div>
-
-  <!-- About section -->
-
-  <div class="container" id="about">
-    <p class="text-center summary-myself">A LITTLE SUMMARY</p>
-    <div class="row">
-      <div class="col-6 col-md-4 col-xl-3 offset-1">
-        <div class="personal-photo mb-3"></div>
-      </div>
-
-      <div class="col-12 col-md-7 col-lg-6">
-        <p>KR loves technology and the real world application of it. He has graduated finance and has extensive experience in managing premium class Italian restaurants in Middle East. He is very passionate about software engineering and decided to enter the world of programming.</p>  
-        <p>He is now student at the online coding bootcamp of <a href="https://www.altcademy.com/" target="_blank">Altcademy</a> and has completed the first part of full stack web development course.</p>
-        <p>Find him on <a href="https://github.com/rakhmonoff" target="_blank" >Github</a>, <a href="https://www.linkedin.com/feed/" target="_blank">LinkedIn</a> or send him an email: <a href="#">rahmanov246 @ gmail.com</a>.</p>
-      </div>
-
-    </div>
-   
-  </div>
-  <!-- Footer -->
-
-<div class="container-fluid pb-2 footer">
-  <hr class="hr-thick w-100">
-  <span>Copyright &copy; Khasanjon Rakhmonov 2021. All rights reserved </span>
-</div>
-
-
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
-
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+      integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
