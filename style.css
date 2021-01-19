@@ -2,6 +2,11 @@
   font-family: "Raleway", sans-serif;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 /* Nav bar */
 
 .navbar a,
@@ -70,7 +75,8 @@
   background-color: rgba(130, 39, 137, 0.753);
   background-size: cover;
   background-position: bottom;
-  padding-top: calc(1 / 30 * 100%);
+  padding-top: calc(1 / 10 * 100%);
+  margin-top: -7%;
 }
 
 #hero h2 {
@@ -100,6 +106,10 @@
     padding-top: 120px;
   }
 
+  #hero {
+    margin-top: -10%;
+  }
+
   #hero h2 {
     letter-spacing: 2px !important;
     font-size: 1.5rem !important;
@@ -114,6 +124,10 @@
 @media (max-width: 440px) {
   .hero-container {
     padding-top: 90px;
+  }
+
+  #hero {
+    margin-top: -20%;
   }
 
   #hero h2 {
@@ -135,6 +149,10 @@
 @media (max-width: 186px) {
   .hero-container {
     padding-top: 50px;
+  }
+
+  #hero {
+    margin-top: -25%;
   }
 
   #hero h2 {
